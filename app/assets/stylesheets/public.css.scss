@@ -1,0 +1,73 @@
+// Place all the styles related to the public controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.logo {
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+label {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+.signup-form {
+  width: 415px;
+  margin: 0 auto;
+}
+
+// Model taken from http://alittlecode.com/files/jQuery-Validate-Demo/index.html
+
+.controls {
+  position: relative;
+}
+
+label.valid {
+  width: 24px;
+  height: 24px;
+  background: image_url('valid.png') center center no-repeat;
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: -39px;
+  text-indent: -9999px;
+}
+
+label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+
+input[type=text] {
+  width: 395px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button[type=submit] {
+  display: block;
+  margin-top: 10px;
+  width: 415px;
+}
+
+.alert-wrapper {
+  position: relative;
+  padding: 10px 0;
+}
+
+#success-alert {
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+}
+
+#email-placeholder {
+  font-weight: bold;
+}

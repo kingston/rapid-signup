@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="span6 offset3">
+    <h1>
+        <%= image_tag "sdi-logo.png", :class => "logo", :alt => "SDI Logo" %>
+      SDI Sign-up
+    </h1>
+  </div>
+</div>
+<div class="row">
+  <div class="span6 offset3 alert-wrapper">
+    <div id="success-alert" class="alert alert-success">
+      <button type="button" class="close" data-dismiss="alert">x</button>
+      Success! <span id="email-placeholder"></span> has been successfully signed up!
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="span6 offset3">
+    <form class="signup-form">
+      <p class="blurb">Sign up here to hear news about what Design Initiative is up to.</p>
+      <div class="control-group">
+        <label class="control-label" for="name-text">Your Name</label>
+        <div class="controls">
+          <input type="text" id="name-text" name="name" class="required" minlength="2" placeholder="Leland Stanford" autocomplete="off" />
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="email-text">Your Email</label>
+        <div class="controls">
+          <input type="text" id="email-text" name="email" class="required email" placeholder="leland@stanford.edu" autocomplete="off" />
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign up</button>
+    </form>
+  </div>
+</div>

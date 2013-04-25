@@ -6,6 +6,8 @@ gem 'rails', '4.0.0.beta1'
 gem 'sqlite3'
 gem 'bourbon', '~> 3.1.4'
 gem 'rails_config', '~> 0.3.3'
+gem 'bootstrap-sass'
+gem 'rack-offline', '~> 0.6.4'
 
 # Gems used only for assets and not required
 # in production environments by default.

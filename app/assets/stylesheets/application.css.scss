@@ -12,8 +12,7 @@
  *= require_tree .
  */
 
-@import "bourbon";
-@import "normalize";
-@import "base/body";
-@import "base/layout";
-@import "base/typography";
+$baseFontSize: 20px;
+$baseLineHeight: 26px;
+
+@import 'bootstrap'
